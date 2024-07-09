@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Sistem Informasi Perpustakaan</title>
+    </head>
+    <body>
+    <style>
+        body {
+            background-image: url(Walpaper\ 1.jpg); 
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            min-height: 100px;
+            display: inline-flex;
+            list-style: none;
+            color: #ffffff;
+             }
+    </style>
+        <form   method="post"   action="input_data_peminjaman.php"
+        <center>Input Data Peminjaman</center>
+        <PRE>
+        ID Peminjaman      = <input  type="textfield"             name="id_peminjaman"             lenght="12">
+
+        ID Buku            = <input  type="textfield"             name="id_buku"                   lenght="12">
+
+        Judul Buku         = <input  type="textfield"             name="judul_buku"                 lenght="200">
+
+        ID Pemustaka       = <input  type="textfield"             name="id_pemustaka"              lenght="12">
+
+        Nama Pemustaka     = <input  type="textfield"             name="nama_pemustaka"            lenght="200">
+
+        Tanggal Pinjam     = <input  type="date"                  name="tanggal_pinjam">
+
+        Tanggal Kembali    = <input  type="date"                  name="tanggal_kembali">
+        
+        
+        <input  type="submit"   value="Simpan"  name="submit">      <input  type="reset"    value="Batal"   name="reset">
+        </PRE>
+         </form>
+    </body>
+</html>

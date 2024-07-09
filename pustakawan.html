@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Sistem Informasi Perpustakaan</title>
+    </head>
+    <body>
+    <style>
+        body {
+            background-image: url(Walpaper\ 1.jpg); 
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            min-height: 100px;
+            display: inline-flex;
+            list-style: none;
+            color: #ffffff;
+             }
+    </style>
+        <form   method="post"   action="input_data_pustakawan.php"
+        <center>Input Data Pustakawan</center>
+        <PRE>
+        ID Pustakawan        = <input  type="textfield"   name="nip"                            lenght="12">
+
+        Nama Pustakawan      = <input  type="textfield"   name="nama"                           lenght="200">
+
+        Jabatan              = <input  type="radio"       value="Kepala Perpustakaan"           name="jabatan">Kepala Perpustakaan   <input  type="radio"       value="Asisten Kepala"      name="jabatan">Asisten Kepala  <input  type="radio"       value="Pustakawan Tetap"      name="jabatan">Pustakawan Tetap     <input  type="radio"       value="Pustakawan Magang"      name="jabatan">Pustakawan Magang
+        
+        Tempat Lahir         = <input  type="textfield"   name="tempat_lahir"                   lenght="200">
+
+        Tanggal Lahir        = <input  type="date"        name="tanggal_lahir">
+
+        Kewarganegaraan      = <input  type="textfield"   name="kewarganegaraan"                lenght="200">
+
+        Jenis Kelamin        = <input  type="radio"       value="Laki-laki"      name="jenis_kelamin">Laki-laki   <input  type="radio"       value="Perempuan"      name="jenis_kelamin">Perempuan
+
+        Agama                = <select name="agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katholik">Katolik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Konghucu">Konghucu</option>
+            <option value="Lainnya">lainnya</option>
+        </select>
+
+        Alamat               = <input  type="textfield"   name="alamat"                           lenght="500">
+
+        Nomor Telepon        = <input  type="textfield"   name="nomor_telepon"                    lenght="13">
+
+        
+        <input  type="submit"   value="Simpan"  name="submit">      <input  type="reset"    value="Batal"   name="reset">
+        </PRE>
+         </form>
+    </body>
+    </html>
+    
